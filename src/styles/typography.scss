@@ -1,0 +1,27 @@
+.heading-1 {
+  @apply text-7xl font-bold font-gbold leading-18 xs:text-3sxl xs:leading-10;
+}
+
+.heading-2 {
+  @apply text-5sxl font-bold font-gbold leading-12 xs:text-2xl xs:leading-8;
+}
+
+.heading-3 {
+  @apply text-2xl font-bold font-gbold leading-8;
+}
+
+.subtext {
+  @apply text-lg leading-8 text-gray xs:text-base xs:leading-7;
+}
+
+.subtext--base {
+  @apply text-gray leading-6;
+}
+
+.tag {
+  @apply text-blue uppercase leading-7 font-bold font-gbold tracking-wider;
+}
+
+.tag--sm {
+  @apply text-sm leading-6 text-blue font-bold font-gbold uppercase tracking-wider;
+}

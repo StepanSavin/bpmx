@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Gotham Pro";
+}
+
+.main-container {
+  max-width: 1060px;
+  margin: auto;
+  @media (max-width: 1084px) {
+    padding: 0 24px;
+  }
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../assets/fonts/GothamPro.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../assets/fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Gotham Pro Bold";
+  src: url("../assets/fonts/GothamPro-Bold.woff") format("woff");
+}
+
+.lazyload,
+.lazyloading {
+  opacity: 0;
+  overflow: hidden;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}
